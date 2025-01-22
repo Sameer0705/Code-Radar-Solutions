@@ -12,7 +12,7 @@ int main() {
     // }
     // printf("%d",bin);
 
-    c=((a>>b) &1)
-    printf("%d",c)
+    c=((a>>b) &1);
+    printf("%d",c);
     return 0;
 }

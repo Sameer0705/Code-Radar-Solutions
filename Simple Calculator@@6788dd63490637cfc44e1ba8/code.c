@@ -19,7 +19,8 @@ int main() {
         printf("%.f",a/b);
         break;
         default:
-        printf("ERROR");
+        printf("Error in case of any error
+        ");
     }
     return 0;
 }

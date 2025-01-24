@@ -17,7 +17,7 @@ int main() {
     }
     for(int f=a-1;f>=1;f--)
     {
-        for(int g=1;g<=f;g++)
+        for(int g=a-1;g>=f;g--)
         {
             printf(" ");
 

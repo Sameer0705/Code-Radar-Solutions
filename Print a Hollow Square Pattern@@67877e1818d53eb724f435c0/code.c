@@ -11,7 +11,7 @@ int main() {
             (j==i||j==a||j==1)?printf("*"):printf(" ");
 
         }
-        printf("\n")
+        printf("\n");
     }
     return 0;
 }

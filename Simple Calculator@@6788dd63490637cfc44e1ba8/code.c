@@ -19,7 +19,7 @@ int main() {
         printf("%.f",a/b);
         break;
         default:
-        printf("Invaild");
+        printf("ERROR");
     }
     return 0;
 }

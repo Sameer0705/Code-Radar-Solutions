@@ -22,7 +22,7 @@ int main() {
             printf(" ");
 
         }
-        for(int h=1;h<=(2*f-1);f++)
+        for(int h=1;h<=(2*f-1);h++)
         {
             printf("*");
         }

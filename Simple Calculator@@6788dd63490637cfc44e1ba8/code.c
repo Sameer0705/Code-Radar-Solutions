@@ -13,10 +13,10 @@ int main() {
         printf("%.f",a-b);
         break;
         case '*':
-        printf("%.f",a*b);
+        printf("%.2f",a*b);
         break;
         case '/':
-        printf("%.2f",a/b);
+        printf("%.f",a/b);
         break;
         default:
         printf("error");

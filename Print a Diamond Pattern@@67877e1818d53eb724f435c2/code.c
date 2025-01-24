@@ -15,5 +15,18 @@ int main() {
         }
         printf("\n");
     }
+    for(int f=1;f<=a-1;f++)
+    {
+        for(int g=a-1;g>=1g++)
+        {
+            printf(" ");
+
+        }
+        for(int h=1;h<=(2*f-1);f++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
     return 0;
 }

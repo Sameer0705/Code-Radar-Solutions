@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    char a;
-    scanf("%c",&a);
+    int a;
+    scanf("%d",&a);
     for(char s='A';s<=a;s++)
     {
         for(char w='A';w<=s;w++)

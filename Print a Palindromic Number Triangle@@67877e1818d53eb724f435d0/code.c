@@ -7,17 +7,17 @@ int main() {
     {
         for(int j=a;j>i;j--)
         {
-            printf("  ");
+            printf(" ");
         }
         for(int k=1;k<=i;k++)
         {
-            printf("%d ",k);
+            printf("%d",k);
         }
         if(i!=1){
             for(int h=i-1;h>=1;h--)
         {
             
-            printf("%d ",h);
+            printf("%d",h);
         }
         }
         printf("\n");

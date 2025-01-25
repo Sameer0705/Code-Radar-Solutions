@@ -13,9 +13,10 @@ int main() {
         {
             printf("%d ",k);
         }
-        for(int h=i;h>=1;h--)
+        if(i==1)continue''
+        else for(int h=i-1;h>=1;h--)
         {
-            if(i==1)continue;
+            
             printf("%d ",h);
         }
         printf("\n");

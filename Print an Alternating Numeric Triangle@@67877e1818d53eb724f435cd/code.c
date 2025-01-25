@@ -7,7 +7,7 @@ int main() {
     {
         for(int j=1;j<=i;j++)
         {
-            const int b=1
+            const int b=1;
             printf("%d",b);
             b--;
         }

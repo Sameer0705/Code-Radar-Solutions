@@ -7,7 +7,7 @@ int main() {
     {
         for(int j=1;j<=i;j++)
         {
-            static int b=1;
+            int b=1;
             printf("%d",b);
             b--;
         }

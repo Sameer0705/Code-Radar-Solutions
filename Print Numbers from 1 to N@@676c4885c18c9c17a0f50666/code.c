@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int a;
+    int a,i=0;
     scanf("%d",&a);
-    while(a>=5)
+
+    while(i>=a)
     {
         printf("%d ",a);
-        a++;
+        i++;
     }
     return 0;
 }

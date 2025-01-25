@@ -8,7 +8,7 @@ int main() {
         char a='A';
         for(char w=1;w<=s;w++)
         {
-            printf("%c",a);
+            printf("%c ",a);
             a=a+1;
 
         }

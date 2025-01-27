@@ -12,7 +12,10 @@ int main() {
     }
     while(bin>0)
     {
-
+        b=bin%10;
+        sum=sum+b;
+        bin=bin/10;
     }
+    
     return 0;
 }

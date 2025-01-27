@@ -9,7 +9,7 @@ int main() {
     }
     for(int j=0;j<a;j++)
     {
-        (arr[j]%2==0)?even+1:odd+1;
+        (arr[j]%2==0)?even=even+1:odd=odd+1;
     }
     printf("%d %d",even,odd);
 

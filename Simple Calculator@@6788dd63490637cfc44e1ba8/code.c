@@ -19,7 +19,7 @@ int main() {
         (b==0)?printf("Error"):printf("%.f",a/b);
         break;
         default:
-        printf("error");
+        printf("Invalid Input");
     }
     return 0;
 }

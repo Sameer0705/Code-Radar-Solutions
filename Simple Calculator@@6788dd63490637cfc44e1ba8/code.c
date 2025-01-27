@@ -16,10 +16,10 @@ int main() {
         printf("%.f",a*b);
         break;
         case '/':
-        printf("%.f",a/b);
+        (b==0)?printf("Error"):printf("%.f",a/b);
         break;
         default:
-        printf("Invalid");
+        printf("Error");
     }
     return 0;
 }

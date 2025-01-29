@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,b,arr1[100],arr2[100];
+    int a,b,flag=0,arr1[100],arr2[100];
     scanf("%d\n",&a);
     for(int i=0;i<a;i++)
     {
@@ -9,6 +9,11 @@ int main() {
         arr1[i]=b;
         arr2[(a-1)-i]=b;
     }
-    (arr1[a]==arr2[a])?printf("YES"):printf("NO");
+    for(int i=0;i<a;i++)
+    {
+        (arr1[i]!=arr2[i])?flag=1;break:;
+    }
+    (flag==1)?printf("NO"):printf("YES");
+
     return 0;
 }

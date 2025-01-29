@@ -5,7 +5,7 @@ int main() {
     scanf("%d",&a);
     while(a>0)
     {
-        count=count+1;
+        count+=1;
         a=a/2;
     }
     printf("%d",32-count);

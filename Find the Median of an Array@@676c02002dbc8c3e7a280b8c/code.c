@@ -7,6 +7,6 @@ int main() {
     {
         scanf("%d",&arr[i]);
     }
-    (a%2!=0)?printf("%d",arr[a/2]):printf("%d",(arr[a/2]+arr[(a/2)+1])/2);
+    (a%2!=0)?printf("%d",arr[a/2]):printf("%d",(arr[(a/2)-1]+arr[(a/2)])/2);
     return 0;
 }

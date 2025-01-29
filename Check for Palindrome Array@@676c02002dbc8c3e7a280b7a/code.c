@@ -11,7 +11,11 @@ int main() {
     }
     for(int i=0;i<a;i++)
     {
-        (arr1[i]!=arr2[i])?flag=1;break:;
+        if(arr1[i]!=arr2[i])
+        {
+        flag=1;
+        break;
+        }
     }
     (flag==1)?printf("NO"):printf("YES");
 

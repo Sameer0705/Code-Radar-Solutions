@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int a,b,arr[100];
     scanf("%d\n",&a);
@@ -16,8 +15,7 @@ int main() {
     }
     for(int i=0;i<a;i++)
     {
-        printf("%d",&arr[i]);
+        printf("%d ",arr[i]);
     }
-
     return 0;
 }

@@ -11,7 +11,7 @@ int main() {
         }
         else
         {
-            a=a<<i;
+            a=a>>i;
         }
         
     }

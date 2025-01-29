@@ -4,11 +4,14 @@ int main() {
     scanf("%d",&a);
     for(int i=0;;i++)
     {
-        if((a&(1>>i))==0)
+        if((a&(1<<i))==0)
         {
             printf("%d",i);
             break;
-
+        }
+        else
+        {
+            a=a<<i;
         }
         
     }

@@ -9,6 +9,6 @@ int main() {
         arr1[i]=b;
         arr2[(a-1)-i]=b;
     }
-    (arr1[100]==arr2[100])?printf("YES"):printf("NO");
+    (arr1[a-1]==arr2[a-1])?printf("YES"):printf("NO");
     return 0;
 }

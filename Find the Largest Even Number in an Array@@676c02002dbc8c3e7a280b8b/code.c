@@ -12,7 +12,7 @@ int main() {
         }
     }
     
-        arr[0]=large;
+    large=arr[0];
     for(int i=1;i<a;i++)
     {
         if(large<arr[i])

@@ -8,21 +8,18 @@ int main() {
         scanf("%d",&b);
         if(b%2==0)
         {
-            arr[i]=b;
-        }
-        else
-        {
-            count=count+1;
+            arr[count]=b;
+            count++;
         }
     }
-    if(count==a)
+    if(count==0)
     {
         printf("-1");
     }
     else
     {
     large=arr[0];
-    for(int i=1;i<a-count;i++)
+    for(int i=1;i<count;i++)
     {
         if(large<arr[i])
         {

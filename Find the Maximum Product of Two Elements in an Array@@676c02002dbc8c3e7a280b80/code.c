@@ -15,7 +15,7 @@ int main() {
             count=count+1;
         }
     }
-    max=arr1[0]
+    max=arr1[0];
     for(int i=1;i<sizeof(arr1);i++)
     {
         max=arr1[i];

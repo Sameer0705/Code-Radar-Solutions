@@ -8,20 +8,19 @@ int main() {
         scanf("%d",&b);
         if(b%2==0)
         {
-            
             arr[i]=b;
         }
-        else
-        {
-            count=count+1;
-        }
+        // else
+        // {
+        //     count=count+1;
+        // }
     }
-    if(count==a)
-    {
-        printf("-1");
-    }
-    else
-    {
+    // if(count==a)
+    // {
+    //     printf("-1");
+    // }
+    // else
+    // {
     large=arr[0];
     for(int i=0;i<a;i++)
     {
@@ -31,7 +30,7 @@ int main() {
         }
     }
     printf("%d",large);
-    }
+    // }
     
     return 0;
 }

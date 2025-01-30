@@ -10,19 +10,19 @@ int main() {
         {
             arr[i]=b;
         }
-        // else
-        // {
-        //     count=count+1;
-        // }
+        else
+        {
+            count=count+1;
+        }
     }
-    // if(count==a)
-    // {
-    //     printf("-1");
-    // }
-    // else
-    // {
+    if(count==a)
+    {
+        printf("-1");
+    }
+    else
+    {
     large=arr[0];
-    for(int i=0;i<a;i++)
+    for(int i=0;i<a-count;i++)
     {
         if(large<arr[i])
         {
@@ -30,7 +30,7 @@ int main() {
         }
     }
     printf("%d",large);
-    // }
+    }
     
     return 0;
 }

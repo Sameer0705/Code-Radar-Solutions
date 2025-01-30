@@ -4,7 +4,7 @@ int main() {
     scanf("%d",&a);
     for(int i=0;i<a;i++)
     {
-        scanf("%d ",&b);
+        scanf("%d",&b);
         int c,sum=0;
         while(b>0){
             c=b%10;

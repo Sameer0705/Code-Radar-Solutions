@@ -10,14 +10,15 @@ int main() {
         while(b>0)
         {
             c=b%10;
-            sum=(sum*10)+b;
+            sum=(sum*10)+c;
             b=b/10;
         }
-        if(d==sum)
-        {
-            count+=1;
-        }
+        printf("%d",sum);
+        // if(d==sum)
+        // {
+        //     count+=1;
+        // }
     }
-    printf("%d",count);
+    // printf("%d",count);
     return 0;
 }

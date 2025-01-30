@@ -10,7 +10,7 @@ int main() {
         while(b>0)
         {
             c=b%10;
-            sum=sum+c;
+            sum=(sum*10)+b;
             b=b/10;
         }
         if(d==sum)

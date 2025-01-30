@@ -12,12 +12,12 @@ int main() {
         for(int j=i+1;j<a;j++)
         {
             arr1[count]=arr[i]*arr[j];
-            count=count+1;
+            count++;
         }
     }
     
     max=arr1[0];
-    for(int i=1;i<count+1;i++)
+    for(int i=1;i<count;i++)
     {
         if(max<arr1[i])
         {

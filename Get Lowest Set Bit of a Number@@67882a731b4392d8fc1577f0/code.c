@@ -1,19 +1,15 @@
 #include <stdio.h>
 int main() {
-    int a,b;
+    int a,b=1;
     scanf("%d",&a);
-    for(int i=0;;i++)
+    while(a>0)
     {
-        if((a|(1<<i))==0)
+        if(a&1)
         {
-            printf("%d",i);
-            break;
+            printf("%d",b);
         }
-        else
-        {
-            a=a>>i;
-        }
-        
+        a>>1;
+        b++;
     }
     return 0;
 }

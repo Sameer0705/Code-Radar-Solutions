@@ -18,7 +18,7 @@ int main() {
     max=arr1[0]
     for(int i=1;i<10;i++)
     {
-        max=arr[i];
+        max=arr1[i];
     }
     printf("%d",max);
     return 0;

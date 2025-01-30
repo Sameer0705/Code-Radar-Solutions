@@ -14,12 +14,12 @@ int main() {
             sum=(sum*10)+c;
             b=b/10;
         }
-        printf("%d ",sum);
-        // if(d==sum)
-        // {
-        //     count+=1;
-        // }
+        
+        if(d==sum)
+        {
+            count+=1;
+        }
     }
-    // printf("%d",count);
+    printf("%d",count);
     return 0;
 }

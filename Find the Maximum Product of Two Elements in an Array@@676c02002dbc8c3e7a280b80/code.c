@@ -19,7 +19,10 @@ int main() {
     max=arr1[0];
     for(int i=1;i<count+1;i++)
     {
+        if(max<arr1[i])
+        {
         max=arr1[i];
+        }
     }
     printf("%d",max);
     return 0;

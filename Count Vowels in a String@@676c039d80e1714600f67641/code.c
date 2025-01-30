@@ -7,7 +7,7 @@ int main() {
     fgets(name,100,stdin);
     for(int i=0;name[i]!='\0';i++)
     {
-        if(name[i]=='a'| |name[i]=='i'|| name[i]=='u'|| name[i]=='e'|| name[i]=='o')
+        if(name[i]=='a'|| name[i]=='i'|| name[i]=='u'|| name[i]=='e'|| name[i]=='o')
         {
             count+=1;
         }

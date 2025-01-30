@@ -13,7 +13,7 @@ int main() {
             sum=(sum*10)+c;
             b=b/10;
         }
-        printf("%d",sum);
+        printf("%d ",sum);
         // if(d==sum)
         // {
         //     count+=1;

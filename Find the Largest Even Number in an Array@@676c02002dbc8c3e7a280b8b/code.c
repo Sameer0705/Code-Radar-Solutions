@@ -12,7 +12,7 @@ int main() {
             arr[i]=b;
         }
         else{
-            count++;
+            count=count+1;
         }
     }
     if(count==a)

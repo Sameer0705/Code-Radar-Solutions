@@ -16,7 +16,7 @@ int main() {
         }
     }
     max=arr1[0]
-    for(int i=1;i<10;i++)
+    for(int i=1;i<sizeof(arr1);i++)
     {
         max=arr1[i];
     }

@@ -11,13 +11,14 @@ int main() {
             
             arr[i]=b;
         }
-        else{
+        else
+        {
             count=count+1;
         }
     }
     if(count==a)
     {
-        printf("-1")
+        printf("-1");
     }
     else{
     large=arr[0];

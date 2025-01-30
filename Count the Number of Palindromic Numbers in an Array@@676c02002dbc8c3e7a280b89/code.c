@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,b,c,d,count=0;
+    int a,b,c,d,sum=0;
     scanf("%d",&a);
     for(int i=0;i<a;i++)
     {
@@ -13,7 +13,7 @@ int main() {
             sum=sum+c;
             b=b/10;
         }
-        if(b==sum)
+        if(d==sum)
         {
             count+=1;
         }

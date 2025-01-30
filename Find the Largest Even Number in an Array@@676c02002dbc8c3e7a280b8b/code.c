@@ -23,7 +23,7 @@ int main() {
     // else
     // {
     large=arr[0];
-    for(int i=1;i<a;i++)
+    for(int i=0;i<a;i++)
     {
         if(large<arr[i])
         {

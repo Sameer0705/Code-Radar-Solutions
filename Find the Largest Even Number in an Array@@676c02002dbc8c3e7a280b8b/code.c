@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,b,arr[],large;
+    int a,b,arr[100],large;
     scanf("%d",&a);
     for(int i=0;i<a;i++)
     {
@@ -11,6 +11,7 @@ int main() {
             arr[i]=b;
         }
     }
+    
     large=arr[0];
     for(int i=1;i<a;i++)
     {

@@ -11,12 +11,7 @@ int main() {
             arr[i]=b;
         }
     }
-    if(arr[]==0)
-    {
-        printf("-1");
-    }
-    else
-    {
+    
         arr[0]=large;
     for(int i=1;i<a;i++)
     {
@@ -26,6 +21,6 @@ int main() {
         }
     }
     printf("%d",large);
-    }
+    
     return 0;
 }

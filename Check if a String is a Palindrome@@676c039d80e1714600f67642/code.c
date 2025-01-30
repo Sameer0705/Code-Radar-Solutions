@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <string.h>
 int main() {
     char str1[500],str2[500];
     fgets(str1,500,stdin);

@@ -3,9 +3,9 @@
 
 int main() {
     char str1[500],str2[100];
-    gets(str1);
-    gets(str2);
+    fgets(str1,500,stdin);
+    fgets(str2,100,stdin);
     strcat(str1,str2);
-    puts(str1);
+    printf("%s",str1);
     return 0;
 }

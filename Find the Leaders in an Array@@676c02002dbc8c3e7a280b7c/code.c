@@ -9,9 +9,12 @@ int main() {
     }
     for(int i=0;i<a-1;i++)
     {
-        if(arr[i]>arr[i+1])
+        for(int j=i+1;j<a-1;j++)
+        {
+            if(arr[i]>arr[j])
         {
             printf("%d ",arr[i]);
+        }
         }
     }
     printf("%d",arr[a-1]);

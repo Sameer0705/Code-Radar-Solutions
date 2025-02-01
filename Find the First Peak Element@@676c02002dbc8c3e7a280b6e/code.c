@@ -14,7 +14,7 @@ int peak(int arr[100], int a)
 int main() {
     int a,arr[100];
     scanf("%d",&a);
-    for(int i=0;i<=5;i++)
+    for(int i=0;i<=a;i++)
     {
         scanf("%d\n",&arr[i]);
     }

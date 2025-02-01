@@ -9,17 +9,20 @@ int main() {
     }
     for(int i=0;i<a-1;i++)
     {
+        int count=0;
         for(int j=i+1;j<a;j++)
         {
             if(arr[i]<arr[j])
-        {
-            break;
+            {
+                count++;
+                break;
+            }
         }
-        else
+        if(count==0)
         {
             printf("%d ",arr[i]);
         }
-        }
+        
     }
     printf("%d",arr[a-1]);
     return 0;

@@ -5,9 +5,9 @@ int main() {
     scanf("%d",&a);
     for(int i0;i<a;i++)
     {
-        scanf("%d ",&arr[i]);
+        scanf("%d",&arr[i]);
     }
-    scanf("\n%d",&b);
+    scanf("%d",&b);
     for(int i=0;i<a-1;i++)
     {
         for(int j=i+1;j<;j++)

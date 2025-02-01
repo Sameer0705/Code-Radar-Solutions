@@ -1,10 +1,20 @@
 #include <stdio.h>
 
 int main() {
-    
-    char a[100]={"Monady"};
-    printf("%s",a[0]);
-    // scanf("%d",&a);
-    // (a%1==0&&a%a==0)?printf("Prime"):printf("Not Prime");    
+    int prime(int a)
+    {
+        for(int i=2;i<a;i++)
+        {
+            if(a%i==0)
+            {
+                return printf("Not Prime");
+            }
+        }
+        return printf("Prime");
+    }
+    int a;
+    scanf("%d",&a);
+    prime(a);
+       
     return 0;
 }

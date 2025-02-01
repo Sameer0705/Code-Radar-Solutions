@@ -6,10 +6,11 @@ int main() {
     {
         if(a&1==1)
         {
-            printf("%d",b);
+            break;
         }
         a=a>>1;
         b++;
     }
+    printf("%d",b);
     return 0;
 }

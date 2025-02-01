@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int peak(int arr[100], int a)
+int peak(int arr[], int a)
 {
     for(int i=0;i<=sz;i++)
     {

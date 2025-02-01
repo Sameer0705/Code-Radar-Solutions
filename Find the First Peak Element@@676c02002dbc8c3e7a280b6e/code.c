@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int peak(int arr[], int sz)
+int peak(int arr[], int a)
 {
     for(int i=0;i<=sz;i++)
     {
@@ -12,7 +12,7 @@ int peak(int arr[], int sz)
     return printf("-1");
 }
 int main() {
-    int a,arr[];
+    int a,arr[100];
     scanf("%d",&a);
     for(int i=0;i<=5;i++)
     {

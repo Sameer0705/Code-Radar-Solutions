@@ -2,7 +2,7 @@
 
 int peak(int arr[a], int a)
 {
-    for(int i=0;i<=sz;i++)
+    for(int i=0;i<=a;i++)
     {
         if(arr[i-1]<arr[i] && arr[i]>arr[i+1])
         {

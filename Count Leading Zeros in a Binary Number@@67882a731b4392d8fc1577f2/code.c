@@ -3,7 +3,7 @@
 int main() {
     int a,count=0;
     scanf("%d",&a);
-    while(a>0)
+    while(a!=0)
     {
         count+=1;
         a=a/2;

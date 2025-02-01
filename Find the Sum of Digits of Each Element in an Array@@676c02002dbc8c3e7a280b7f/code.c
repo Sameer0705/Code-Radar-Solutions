@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main() {
-    int a,b,arr[100];
+    int a,b,arr[100],sum=0;
     scanf("%d",&a);
     for(int i=0;i<a;i++)
     {
         scanf("%d",&b);
-        int sum=0;
+        sum=0;
         while(b!=0){
             sum += b%10;
             b= b/10;

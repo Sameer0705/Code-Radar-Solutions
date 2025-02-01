@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int peak(int arr[], int sz)
+{
+    for(int i=0;i<=sz;i++)
+    {
+        if(arr[i-1]<arr[i] && arr[i]>arr[i+1])
+        {
+            return printf("%d",arr[i]);
+        }
+    }
+    return printf("-1");
+}
+int main() {
+    int a,arr[];
+    scanf("%d",&a);
+    for(int i=0;i<=5;i++)
+    {
+        scanf("%d\n",&arr[i]);
+    }
+    peak(arr,a);
+
+    return 0;
+}

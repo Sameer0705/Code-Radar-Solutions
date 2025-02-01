@@ -12,7 +12,7 @@ int peak(int arr[], int a)
     return printf("-1");
 }
 int main() {
-    int a,arr[];
+    int a,arr[100];
     scanf("%d",&a);
     for(int i=0;i<=a;i++)
     {

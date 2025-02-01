@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,count=0;
+    unsigned int a,count=0;
     scanf("%u",&a);
 
         while(a!=0)

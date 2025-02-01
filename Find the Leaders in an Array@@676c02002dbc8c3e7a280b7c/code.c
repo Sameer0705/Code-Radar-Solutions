@@ -11,7 +11,11 @@ int main() {
     {
         for(int j=i+1;j<a-1;j++)
         {
-            if(arr[i]>arr[j])
+            if(arr[i]<arr[j])
+        {
+            break;
+        }
+        else
         {
             printf("%d ",arr[i]);
         }

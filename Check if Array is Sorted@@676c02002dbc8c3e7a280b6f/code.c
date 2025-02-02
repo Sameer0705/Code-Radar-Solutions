@@ -2,9 +2,9 @@
 
 int sorted(int arr[],int a)
 {
-    for(int i=1;i<a;i++)
+    for(int i=0;i<a-1;i++)
     {
-        if(arr[i-1]>arr[i])
+        if(arr[i]>arr[i+1])
         {
             return printf("Not Sorted");
         }

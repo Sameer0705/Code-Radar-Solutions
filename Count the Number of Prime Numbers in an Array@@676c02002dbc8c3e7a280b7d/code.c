@@ -11,17 +11,20 @@ int prime(int a)
     return flag=0;
 }
 int main() {
-    int a,b,flag=0;
+    int a,arr[100];
     scanf("%d",&a);
     for(int i=0;i<a;i++)
     {
-        scanf("%d",&b);
-        prime(b);
-        if(flag=0)
+        scanf("%d",&arr[i]);
+    }
+    for(int i=0;i<a;i++)
+    {
+        prime(arr[i]);
+        if(flag==0)
         {
             count++;
         }
     }
-    printf("%d",count);
+    printf("%d",count)
     return 0;
 }

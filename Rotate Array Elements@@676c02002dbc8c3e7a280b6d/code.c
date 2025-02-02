@@ -8,9 +8,9 @@ int main() {
         scanf("%d\n",&arr[i]);
     }
     scanf("%d",&b);
+    temp=arr[a-1];
     for(int i=a-2;i>=0;i--)
     {
-        temp=arr[a-1];
         arr[a-1]=arr[i];
         arr[i]=temp;
     }

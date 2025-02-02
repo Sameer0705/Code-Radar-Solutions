@@ -3,7 +3,7 @@ int prime(int a)
 {
     for(int j=2;j<a;j++)
     {
-         if(arr[i]%j==0)
+         if(a%j==0)
         {
             return flag=1;
         }
@@ -11,16 +11,13 @@ int prime(int a)
     return flag=0;
 }
 int main() {
-    int a,arr[100],flag=0;
+    int a,b,flag=0;
     scanf("%d",&a);
     for(int i=0;i<a;i++)
     {
-        scanf("%d",&arr[i]);
-    }
-    for(int i=0;i<a;i++)
-    {
-        prime(arr[i]);
-        if(flag==0)
+        scanf("%d",&b);
+        prime(b);
+        if(flag=0)
         {
             count++;
         }

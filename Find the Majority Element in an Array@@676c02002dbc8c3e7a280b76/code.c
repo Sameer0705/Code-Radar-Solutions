@@ -2,7 +2,7 @@
 
 int majority(int arr[],int a)
 {
-    int count=0,arr1[100],b=0,c;
+    int count=0,b=0,c;
     for(int i=0;i<a;i++)
     {
         for(int j=i+1;j<a;j++)

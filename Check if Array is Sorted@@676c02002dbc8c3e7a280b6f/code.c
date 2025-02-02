@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int sorted(int arr[100],int a)
+int sorted(int arr[],int a)
 {
     for(int i=0;i<a-1;i++)
     {

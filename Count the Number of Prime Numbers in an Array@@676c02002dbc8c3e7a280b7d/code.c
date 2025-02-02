@@ -1,6 +1,7 @@
 #include <stdio.h>
 int prime(int a)
 {
+    int flag=0;
     for(int j=2;j<a;j++)
     {
          if(a%j==0)
@@ -11,7 +12,7 @@ int prime(int a)
     return flag=0;
 }
 int main() {
-    int a,arr[100],flag=0,count=0;
+    int a,arr[100],,count=0;
     scanf("%d",&a);
     for(int i=0;i<a;i++)
     {

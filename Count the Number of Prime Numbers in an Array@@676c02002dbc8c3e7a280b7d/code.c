@@ -1,9 +1,9 @@
 #include <stdio.h>
-int prime(int a)
+int prime(int b)
 {
-    for(int j=2;j<a;j++)
+    for(int j=2;j<b;j++)
     {
-         if(a%j==0)
+         if(b%j==0)
         {
             return 1;
         }

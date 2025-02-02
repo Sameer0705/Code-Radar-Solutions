@@ -6,7 +6,7 @@ int main() {
     scanf("%s",name);
     for(int i=0;name[i] !='\0';i++)
     {
-        if(name[i] == 'a'|| name[i] == 'i'|| name[i] == 'u'|| name[i] == 'e'|| name[i] == 'o')
+        if(name[i] == 'a'|| name[i] == 'i'|| name[i] == 'u'|| name[i] == 'e'|| name[i] == 'o'|| name=='A'||name=='I'|| name=='U'||name=='E'||name=='O')
         {
             count++;
         }

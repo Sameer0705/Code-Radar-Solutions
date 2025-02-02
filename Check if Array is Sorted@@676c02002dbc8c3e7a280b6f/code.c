@@ -2,7 +2,7 @@
 
 int sorted(int arr[],int a)
 {
-    for(int i=1;i<a-1;i++)
+    for(int i=1;i<a;i++)
     {
         if(arr[i-1]>arr[i])
         {

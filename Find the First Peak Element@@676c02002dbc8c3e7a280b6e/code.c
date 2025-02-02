@@ -6,8 +6,7 @@ int peak(int arr[], int a)
     {
         if(arr[i-1]<arr[i] && arr[i]>arr[i+1])
         {
-            printf("%d",arr[i]);
-            return 0;
+            return printf("%d",arr[i]);
         }
     }
     return printf("-1");

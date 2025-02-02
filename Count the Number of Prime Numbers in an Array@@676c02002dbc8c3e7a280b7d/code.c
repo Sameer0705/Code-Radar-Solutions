@@ -20,8 +20,7 @@ int main() {
     }
     for(int i=0;i<a;i++)
     {
-        prime(arr[i]);
-        if(flag==0)
+        if(prime(arr[i])==0);
         {
             count++;
         }

@@ -6,10 +6,10 @@ int prime(int a)
     {
          if(a%j==0)
         {
-            return flag=1;
+            return 1;
         }
     }
-    return flag=0;
+    return 0;
 }
 int main() {
     int a,arr[100],,count=0;
@@ -25,6 +25,6 @@ int main() {
             count++;
         }
     }
-    printf("%d",count);
+    printf("%d\n",count);
     return 0;
 }

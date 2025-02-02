@@ -7,14 +7,14 @@ int main() {
     {
         scanf("%d",&arr[i]);
     }
-    for(int i=0;i<a-1;i++)
+    for(int j=0;j<a-1;j++)
     {
-        if(arr[i]==0)
+        for(int i=0;i<a-1;i++){if(arr[i]==0)
         {
             temp=arr[i];
             arr[i]=arr[i+1];
             arr[i+1]=temp;
-        }
+        }}
     }
     for(int i=0;i<a;i++)
     {

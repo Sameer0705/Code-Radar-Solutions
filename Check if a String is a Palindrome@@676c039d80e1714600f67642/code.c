@@ -8,13 +8,6 @@ int main() {
         str2[b]=str1[i];
         b++;
     }
-    if(str1==str2)
-    {
-        printf("Yes");
-    }
-    else
-    {
-        printf("No");
-    }
+    (str1==str2)?printf("Yes"):printf("No");
     return 0;
 }

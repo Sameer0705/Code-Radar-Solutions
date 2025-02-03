@@ -3,7 +3,7 @@
 int main() {
     int count=0;
     char str1[500];
-    scanf("%s",&str1);
+    scanf("%[^\n]s",str1);
     for(int i=0;str1[i]!='\0';i++)
     {
         count++;

@@ -4,7 +4,7 @@ int sorted(int arr[],int a)
 {
     for(int i=0;i<a-1;i++)
     {
-        if(arr[i]>arr[i+1])
+        if(arr[i]>=arr[i+1])
         {
             return printf("Not Sorted");
         }

@@ -7,7 +7,7 @@ int main() {
     scanf(" %c",&d);
     for(int i=0;str[i]!='\0';i++)
     {
-        if(d==arr[i])
+        if(arr[i]==d)
         {
             count++;
         }

@@ -2,7 +2,7 @@
 #include <string.h>
 int main() {
     char str1[500],str2[500],b=0;
-    scanf("%[^\n]*s",str1);
+    fgets(str1,500,stdin);
     for(int i=strlen(str1)-1;i>=0;i--)
     {
         str2[b]=str1[i];

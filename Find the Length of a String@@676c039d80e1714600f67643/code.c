@@ -9,6 +9,6 @@ int main() {
         count++;
         i++;
     }
-    printf("%d\n",count);
+    printf("%d,count);
     return 0;
 }

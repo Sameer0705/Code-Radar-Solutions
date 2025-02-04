@@ -2,7 +2,7 @@
 #include <string.h>
 int main() {
     char ch[500];
-    gets(ch);
+    fgets(ch,500,stdin);
     printf("%s",strrev(ch));
     return 0;
 }

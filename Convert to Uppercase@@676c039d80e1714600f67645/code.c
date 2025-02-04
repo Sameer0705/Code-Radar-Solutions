@@ -2,7 +2,7 @@
 
 int main() {
     char ch[100];
-    fgets(ch,100,stdin);
+    gets(ch);
     printf("%s",strupr(ch));
     return 0;
 }

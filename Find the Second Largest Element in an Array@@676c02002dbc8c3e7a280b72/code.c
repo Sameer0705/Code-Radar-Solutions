@@ -18,7 +18,14 @@ int main() {
         }
         else if(arr[i]>seclarge && arr[i]!=large)
         {
-            seclarge=arr[i];
+            if(seclarge==large ||seclarge==0)
+            {
+                seclarge=-1;
+            }
+            else
+            {
+                seclarge=arr[i];
+            }
         }
     }
     printf("%d",seclarge);

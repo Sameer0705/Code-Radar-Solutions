@@ -10,7 +10,7 @@ int main() {
     scanf("%d",&b);
     // for(int j=0;j<=a-2;j++)
     // {
-    //     temp=arr[j];
+        temp=arr[0];
     for(int i=1;i<=2;i++)
     {
         arr[i-1]=arr[i];

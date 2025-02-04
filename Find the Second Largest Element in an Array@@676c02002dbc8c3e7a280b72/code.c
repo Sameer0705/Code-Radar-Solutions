@@ -8,7 +8,7 @@ int main() {
         scanf("%d",&arr[i]);
     }
     large=arr[0];
-    seclarge=arr[1];
+    seclarge=-1;
     for(int i=0;i<a;i++)
     {
         if(arr[i]>large)

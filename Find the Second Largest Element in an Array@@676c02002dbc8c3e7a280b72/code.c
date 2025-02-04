@@ -21,6 +21,7 @@ int main() {
             if(seclarge==large ||seclarge==0)
             {
                 seclarge=-1;
+                break;
             }
             else
             {

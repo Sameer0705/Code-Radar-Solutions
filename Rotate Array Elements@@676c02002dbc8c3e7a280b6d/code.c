@@ -13,9 +13,9 @@ int main() {
     //     int temp =arr[a-1];
         for(int i=0;i<=a-2;i++)
         {
-            temp=arr[i];
+            temp=arr[0];
             arr[i+1]=arr[i];
-            arr[0]=temp;
+            arr[i]=temp;
         }
     // }  
     for(int i=0;i<a;i++)

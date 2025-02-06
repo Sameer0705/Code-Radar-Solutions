@@ -15,12 +15,13 @@ int main() {
         {
             temp=arr[0];
             arr[0]=arr[i];
-            arr[i]=temp;
+            arr[0]=temp;
         }
         // arr[0]=last;
-    }
+    
     for(int i=0;i<a;i++)
     {
         printf("%d\n",arr[i]);
     }
+}
     return 0;

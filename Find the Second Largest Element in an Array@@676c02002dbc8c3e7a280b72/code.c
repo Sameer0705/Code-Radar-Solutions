@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,arr[100],large,seclarge,b=-1;
+    int a,arr[100],large,seclarge;
     scanf("%d",&a);
     for(int i=0;i<a;i++)
     {
@@ -19,8 +19,6 @@ int main() {
         else if(arr[i]>seclarge && arr[i]!=large)
         {
             seclarge=arr[i];
-            b=seclarge;
-
         }
     }
     printf("%d",b);

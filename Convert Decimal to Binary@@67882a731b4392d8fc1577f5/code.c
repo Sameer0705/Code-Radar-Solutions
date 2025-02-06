@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    long a,rem=0,bin=0,place=1;
-    scanf("%ld",&a);
+    int a,rem=0,bin=0,place=1;
+    scanf("%d",&a);
     while(a>=0)
     {
         rem=a%2;
@@ -11,7 +11,7 @@ int main() {
         place=place*10;
 
     }
-    printf("%ld",bin);
+    printf("%d",bin);
 
     return 0;
 }

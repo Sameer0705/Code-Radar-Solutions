@@ -19,7 +19,10 @@ int smallest(int arr[],int a)
     {
         printf("-1");
     }
-    return printf("%d",sec_smallest);
+    else
+    {
+        printf("%d",sec_smallest);
+    }
 }
 
 int main() {

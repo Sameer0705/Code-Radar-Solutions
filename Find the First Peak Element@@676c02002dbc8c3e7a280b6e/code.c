@@ -9,10 +9,10 @@ int peak(int arr[], int a)
             return printf("%d",arr[i]);
             
         }
-        // else if(arr[a-1])
-        // {
-        //     return printf("-1");
-        // }
+        else if(arr[a-1]>arr[a-2])
+        {
+            return printf("%d",arr[a-1]);
+        }
     }
     return printf("-1");
 }

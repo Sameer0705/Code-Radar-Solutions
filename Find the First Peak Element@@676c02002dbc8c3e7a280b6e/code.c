@@ -9,13 +9,11 @@ int peak(int arr[], int a)
             return printf("%d",arr[i]);
             
         }
-        else if(arr[a-1])
-        {
-            return printf("-1");
-        }
+        // else if(arr[a-1])
+        // {
+        //     return printf("-1");
+        // }
     }
-    
-    
 }
 int main() {
     int a,arr[100];

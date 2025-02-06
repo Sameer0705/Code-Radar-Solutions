@@ -14,6 +14,7 @@ int peak(int arr[], int a)
         //     return printf("-1");
         // }
     }
+    return printf("-1");
 }
 int main() {
     int a,arr[100];

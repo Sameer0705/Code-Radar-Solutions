@@ -12,6 +12,7 @@ int repeat(int arr[],int a)
             }
         }
     }
+    return printf("-1");
 }
 
 int main() {

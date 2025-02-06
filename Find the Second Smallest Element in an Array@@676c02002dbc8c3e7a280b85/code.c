@@ -2,7 +2,7 @@
 
 int smallest(int arr[],int a)
 {
-    int smallest=arr[0],sec_smallest = -1;
+    int smallest=arr[0],sec_smallest = arr[1];
     for(int i=0;i<a;i++)
     {
         if(arr[i]<smallest)
@@ -14,6 +14,10 @@ int smallest(int arr[],int a)
         {
             sec_smallest=arr[i];
         }
+    }
+    if(sec_smallest==smallest || a==1)
+    {
+        printf("-1");
     }
     return printf("%d",sec_smallest);
 }

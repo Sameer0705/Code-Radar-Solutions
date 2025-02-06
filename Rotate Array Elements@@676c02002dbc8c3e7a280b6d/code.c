@@ -8,12 +8,15 @@ int main() {
         scanf("%d\n",&arr[i]);
     }
     scanf("%d",&b);
-        for(int i=1;i<a;i++)
+    for(int j=0;j<b;j++)
+    {
+        for(int i=1;i<a;i++)⁷
         {
             temp=arr[0];
             arr[0]=arr[i];
             arr[i]=temp;
         }
+    }
     for(int i=0;i<a;i++)
     {
         printf("%d\n",arr[i]);

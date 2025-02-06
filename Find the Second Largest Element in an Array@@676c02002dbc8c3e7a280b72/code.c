@@ -21,6 +21,6 @@ int main() {
             seclarge=arr[i];
         }
     }
-    printf("%d",seclarge);
+    (seclarge==large ||a==1)?printf("-1"):printf("%d",seclarge);
     return 0;
 }

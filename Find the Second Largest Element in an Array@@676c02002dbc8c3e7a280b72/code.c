@@ -21,6 +21,6 @@ int main() {
             seclarge=arr[i];
         }
     }
-    printf("%d",b);
+    printf("%d",seclarge);
     return 0;
 }

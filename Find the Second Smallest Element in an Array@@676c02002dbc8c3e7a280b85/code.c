@@ -15,14 +15,7 @@ int smallest(int arr[],int a)
             sec_smallest=arr[i];
         }
     }
-    if(sec_smallest==smallest || a==1)
-    {
-        printf("-1");
-    }
-    else
-    {
-        printf("%d",sec_smallest);
-    }
+    (sec_smallest==smallest || a==1)?printf("-1"):printf("%d",sec_smallest);
 }
 
 int main() {

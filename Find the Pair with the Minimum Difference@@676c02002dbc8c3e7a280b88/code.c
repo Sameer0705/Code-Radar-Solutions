@@ -24,6 +24,6 @@ int main() {
     {
         scanf("%d",&arr[i]);
     }
-    mindiff(arr,a);
+    mindiff(arr,a)
     return 0;
 }

@@ -18,6 +18,10 @@ void mindiff(int arr[],int a)
     {
         printf("%d %d",arr[a-1],arr[a-2]);
     }
+    else if(a==1)
+    {
+        printf("-1");
+    }
     else
     {
         printf("%d %d",arr[0],arr[1]);

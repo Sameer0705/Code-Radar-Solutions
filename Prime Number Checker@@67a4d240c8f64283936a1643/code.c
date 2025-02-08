@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int prime(int a)
+int isprime(int a)
 {
     for(int j=2;j<a;j++)
     {

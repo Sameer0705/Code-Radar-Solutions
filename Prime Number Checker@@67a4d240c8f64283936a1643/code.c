@@ -1,7 +1,11 @@
 #include <stdio.h>
 int isPrime(int a)
 {
-    for(int j=2;j<a;j++)
+    if(a<1)
+    {
+        return 0;
+    }
+    for(int j=2;j*j<a;j++)
     {
         if(a%j==0)
         {

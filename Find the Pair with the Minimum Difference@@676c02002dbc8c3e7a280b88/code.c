@@ -16,11 +16,11 @@ void mindiff(int arr[],int a)
     }
     if((arr[0]-arr[1])<(arr[a-2]-arr[a-1]))
     {
-        printf("%d %d",arr[1],arr[0]);
+        printf("%d %d",arr[a-1],arr[a-2]);
     }
     else
     {
-        printf("%d %d",arr[a-1],arr[a-2]);
+        printf("%d %d",arr[1],arr[0]);
     }
 }
 int main() {

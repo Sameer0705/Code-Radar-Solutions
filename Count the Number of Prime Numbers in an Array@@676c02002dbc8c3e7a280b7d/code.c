@@ -1,7 +1,7 @@
 #include <stdio.h>
 int prime(int b)
 {
-    for(int j=2;j<b;j++)
+    for(int j=2;j*j<b;j++)
     {
          if(b%j==0)
         {

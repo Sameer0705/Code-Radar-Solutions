@@ -2,7 +2,12 @@
 void mindiff(int arr[],int a)
 {
     int temp;
-    for(int i=0;i<a;i++)
+    if(a==1)
+    {
+        printf("-1");
+    }
+    else
+{    for(int i=0;i<a;i++)
     {
         for(int j=i+1;j<a;j++)
         {
@@ -18,14 +23,10 @@ void mindiff(int arr[],int a)
     {
         printf("%d %d",arr[a-1],arr[a-2]);
     }
-    else if(a==1)
-    {
-        printf("-1");
-    }
     else
     {
         printf("%d %d",arr[0],arr[1]);
-    }
+    }}
 }
 int main() {
     int a,arr[100];

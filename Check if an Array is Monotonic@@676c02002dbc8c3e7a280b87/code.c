@@ -1,7 +1,7 @@
 #include <stdio.h>
 int monotonic(int arr[] ,int a)
 {
-    if(arr[i]>arr[i+1])
+    if(arr[0]>arr[1])
     {
         for(int j=0;j<a-1;j++)
         {
@@ -11,7 +11,7 @@ int monotonic(int arr[] ,int a)
             }
         }
     }
-    else if(arr[i]<arr[i+1])
+    else if(arr[0]<arr[1])
     {
         for(int j=0;j<a-1;j++)
         {

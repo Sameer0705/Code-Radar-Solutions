@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void prime(int arr[],int a)
+int prime(int arr[],int a)
 {
     for(int i=0;i<a;i++)
     {

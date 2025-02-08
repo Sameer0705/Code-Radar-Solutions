@@ -22,7 +22,7 @@ int main() {
     scanf("%d",&a);
     for(int i=0;i<a;i++)
     {
-        scanf("%d ",&arr[i]);
+        scanf("%d",&arr[i]);
     }
     mindiff(arr,a);
     return 0;

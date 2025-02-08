@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-int mindiff(int arr,int a)
+void mindiff(int arr,int a)
 {
     int temp;
     for(int i=0;i<a;i++)
@@ -15,7 +14,14 @@ int mindiff(int arr,int a)
             }
         }
     }
-    ((arr[0]-arr[1])<(arr[a-2]-arr[a-1]))?printf("%d %d",arr[1],arr[0]):printf("%d %d",arr[a-1],arr[a-2]);
+    if((arr[0]-arr[1])<(arr[a-2]-arr[a-1]))
+    {
+        printf("%d %d",arr[1],arr[0]);
+    }
+    else
+    {
+        printf("%d %d",arr[a-1],arr[a-2]);
+    }
 }
 int main() {
     int a,arr[100];

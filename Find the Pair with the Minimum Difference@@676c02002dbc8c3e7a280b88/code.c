@@ -20,7 +20,7 @@ void mindiff(int arr[],int a)
     }
     else
     {
-        printf("%d %d",arr[1],arr[0]);
+        printf("%d %d",arr[0],arr[1]);
     }
 }
 int main() {

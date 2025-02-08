@@ -10,6 +10,10 @@ int main() {
             sum += b%10;
             b= b/10;
         }
+        if(sum<0)
+        {
+            sum*=-1;
+        }
         arr[i]=sum;
     }
     for(int i=0;i<a;i++)

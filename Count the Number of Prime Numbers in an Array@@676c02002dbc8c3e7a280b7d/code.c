@@ -1,6 +1,10 @@
 #include <stdio.h>
 int prime(int b)
 {
+    if(b<=1)
+    {
+        return 1;
+    }
     for(int j=2;j<b;j++)
     {
          if(b%j==0)

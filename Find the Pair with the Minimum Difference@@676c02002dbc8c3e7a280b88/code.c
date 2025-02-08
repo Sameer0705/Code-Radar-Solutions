@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void mindiff(int arr,int a)
+int mindiff(int arr,int a)
 {
     int temp;
     for(int i=0;i<a;i++)

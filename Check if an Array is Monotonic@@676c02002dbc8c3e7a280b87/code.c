@@ -1,26 +1,23 @@
 #include <stdio.h>
 int monotonic(int arr[] ,int a)
 {
-    for(int i=0;i<a-1;i++)
+    if(arr[i]>arr[i+1])
     {
-        if(arr[i]>arr[i+1])
+        for(int j=0;j<a-1;j++)
         {
-            for(int j=0;j<a-1;j++)
+            if(arr[j]<arr[j+1])
             {
-                if(arr[i]<arr[i+1])
-                {
-                    return printf("NO");
-                }
+                return printf("NO");
             }
         }
-        else if(arr[i]<arr[i+1])
+    }
+    else if(arr[i]<arr[i+1])
+    {
+        for(int j=0;j<a-1;j++)
         {
-            for(int j=0;j<a-1;j++)
+            if(arr[j]>arr[j+1])
             {
-                if(arr[i]>arr[i+1])
-                {
-                    return printf("NO");
-                }
+                return printf("NO");
             }
         }
     }

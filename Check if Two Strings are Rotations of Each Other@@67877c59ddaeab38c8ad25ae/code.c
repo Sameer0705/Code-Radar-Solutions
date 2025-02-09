@@ -17,7 +17,7 @@ int main() {
             str2[0]=str[i];
             srt2[i]=temp;
         }
-        if(str1=str2)
+        if(str1==str2)
         {
             flag=1;
             break;

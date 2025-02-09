@@ -4,10 +4,10 @@ void greatest(int arr[],int a)
 {
     for(int i=0;i<a;i++)
     {
-        int great;
+        int great=0;
         for(int j=i+1;j<a;j++)
         {
-            if(arr[j]>arr[j+1])
+            if(great<arr[j])
             {
                 great=arr[j];
             }

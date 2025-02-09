@@ -12,7 +12,7 @@ int main() {
         for(int i=0;i<a;i++)
         {
             temp=str2[0];
-            str2[0]=str[i];
+            str2[0]=str2[i];
             str2[i]=temp;
         }
         if(strcmp(str1,str2)==0)

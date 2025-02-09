@@ -1,5 +1,5 @@
 #include <stdio.h>
-int bubbleSort(int arr[],int a)
+void bubbleSort(int arr[],int a)
 {
     int temp;
     for(int i=0;i<a;i++)
@@ -26,9 +26,9 @@ int main() {
     int n;
     scanf("%d",&n);
     int arr[n];
-    for(*int i=0;i<n;i++)
+    for(int i=0;i<n;i++)
     {
-        scanf("%d",arr[i]);
+        scanf("%d",&arr[i]);
     }
     bubbleSort(arr,n);
     printArray(arr,n);

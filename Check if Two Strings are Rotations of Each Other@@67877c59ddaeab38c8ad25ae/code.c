@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 int main() {
-    char str1[200],str2[200];
+    char str1[500],str2[500];
     scanf("%[^\n]s",str1);
     getchar();
     scanf("%[^\n]s"str2);

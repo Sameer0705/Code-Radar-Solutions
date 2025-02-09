@@ -6,9 +6,9 @@ int main() {
     getchar();
     scanf("%[^\n]s",str2);
     int b=strlen(str1),a=strlen(str2),flag=0;
-    char temp;
     for(int j=0;j<b;j++)
     {
+        char temp;
         for(int i=0;i<a;i++)
         {
             temp=str2[0];

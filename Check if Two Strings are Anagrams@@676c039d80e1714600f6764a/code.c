@@ -5,8 +5,7 @@ int main() {
     scanf("%[^\n]s",str1);
     getchar();
     scanf("%[^\n]s",str2);
-    int b=strlen(str1),a=strlen(str2);
-    int count=0;
+    int b=strlen(str1),a=strlen(str2),count=0;
     for(int j=0;j<b;j++)
     {
         for(int i=0;i<a;i++)

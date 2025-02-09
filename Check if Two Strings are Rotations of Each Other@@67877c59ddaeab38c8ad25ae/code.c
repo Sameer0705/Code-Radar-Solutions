@@ -8,6 +8,7 @@ int main() {
     int b=strlen(str1);
     int a=strlen(str2);
     int flag=0;
+    char temp;
     for(int j=0;j<b;j++)
     {
         for(int i=0;i<a;i++)

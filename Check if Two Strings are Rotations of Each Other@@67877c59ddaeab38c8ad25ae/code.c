@@ -1,8 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-
-
-
 int main() {
     char str1[500],str2[500];
     scanf("%[^\n]s",str1);
@@ -19,8 +16,7 @@ int main() {
             {
                 count++;
                 break;
-            }
-            
+            }   
         }
     }
     (b=count)?printf("Yes"):printf("No");

@@ -7,11 +7,11 @@ int main() {
     scanf("%[^\n]s",str2);
     int a=strlen(str2);
     char temp;
-    for(int i=0;i<a-1;i++)
+    for(int i=0;i<a;i++)
     {
-        temp=str2[i];
-        str2[i]=str2[i+1];
-        str2[i+1]=temp;
+        temp=str2[0];
+        str2[0]=str2[i];
+        str2[i]=temp;
         
     }
     (str1==str2)?printf("Yes"):printf("No");

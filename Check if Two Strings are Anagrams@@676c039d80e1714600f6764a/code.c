@@ -5,8 +5,7 @@ int main() {
     scanf("%[^\n]s",str1);
     getchar();
     scanf("%[^\n]s",str2);
-    int b=strlen(str1);
-    int a=strlen(str2);
+    int b=strlen(str1),a=strlen(str2);
     int count=0;
     for(int j=0;j<b;j++)
     {
@@ -15,10 +14,10 @@ int main() {
             if(str1[j]==str2[i])
             {
                 count++;
-                continue;
+                break;
             }   
         }
     }
-    (b=count)?printf("Yes"):printf("No");
+    (b==count)?printf("Yes"):printf("No");
     return 0;
 }

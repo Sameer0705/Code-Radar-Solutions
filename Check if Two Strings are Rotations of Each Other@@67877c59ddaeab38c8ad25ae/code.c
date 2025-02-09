@@ -11,7 +11,7 @@ int main() {
     {
         temp=str2[i];
         str2[i]=str2[i+1];
-        str2[i+1]=str2[i];
+        str2[i+1]=temp;
         
     }
     (str1==str2)?printf("Yes"):printf("No");

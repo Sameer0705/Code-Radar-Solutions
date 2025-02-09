@@ -6,7 +6,7 @@ void bubbleSort(int arr[],int a)
     {
         for(int j=i+1;j<a;j++)
         {
-            if(arr[i]>arr[j])
+            if(arr[i]<arr[j])
             {
                 temp=arr[i];
                 arr[i]=arr[j];
@@ -25,7 +25,7 @@ void printArray(int arr[],int a)
 int main() {
     int n;
     scanf("%d",&n);
-    int arr[100];
+    int arr[n];
     for(int i=0;i<n;i++)
     {
         scanf("%d ",&arr[i]);

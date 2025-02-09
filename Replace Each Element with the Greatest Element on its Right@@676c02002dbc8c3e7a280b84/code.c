@@ -8,7 +8,7 @@ void greatest(int arr[],int a)
         {
             if(arr[j]<arr[j+1])
             {
-                arr[i]=arr[j];
+                arr[i]=arr[j+1];
             }
         }
     }

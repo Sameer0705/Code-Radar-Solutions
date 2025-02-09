@@ -6,9 +6,9 @@ void greatest(int arr[],int a)
     {
         for(int j=i+1;j<a-1;j++)
         {
-            if(arr[j]<arr[j+1])
+            if(arr[j]>arr[j+1])
             {
-                arr[i]=arr[j+1];
+                arr[i]=arr[j];
             }
         }
     }

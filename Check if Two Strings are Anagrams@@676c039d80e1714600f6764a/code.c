@@ -15,7 +15,7 @@ int main() {
             if(str1[j]==str2[i])
             {
                 count++;
-                break;
+                continue;
             }   
         }
     }

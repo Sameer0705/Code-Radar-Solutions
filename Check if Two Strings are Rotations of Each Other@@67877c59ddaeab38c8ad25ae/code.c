@@ -7,10 +7,10 @@ int main() {
     scanf("%[^\n]s",str2);
     int a=strlen(str2);
     char temp;
-    for(int i=1;i<a;i++)
+    for(int i=a-1;i<0;i++)
     {
-        temp=str2[0];
-        str2[0]=str2[i];
+        temp=str2[a];
+        str2[a]=str2[i];
         str2[i]=temp;
         
     }

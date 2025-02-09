@@ -11,7 +11,7 @@ void mindiff(int arr[],int a)
         {
             for(int j=i+1;j<a;j++)
             {
-                if(arr[i]>arr[j])
+                if(arr[i]<arr[j])
                 {
                     temp=arr[i];
                     arr[i]=arr[j];

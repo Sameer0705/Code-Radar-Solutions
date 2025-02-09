@@ -5,9 +5,7 @@ int main() {
     scanf("%[^\n]s",str1);
     getchar();
     scanf("%[^\n]s",str2);
-    int b=strlen(str1);
-    int a=strlen(str2);
-    int flag=0;
+    int b=strlen(str1),a=strlen(str2),flag=0;
     char temp;
     for(int j=0;j<b;j++)
     {
@@ -15,16 +13,12 @@ int main() {
         {
             temp=str2[0];
             str2[0]=str[i];
-            srt2[i]=temp;
+            str2[i]=temp;
         }
         if(strcmp(str1,str2)==0)
         {
             flag=1;
             break;
-        }
-        else
-        {
-            flag=0;
         }
     }
     (flag==1)?printf("Yes"):printf("No");

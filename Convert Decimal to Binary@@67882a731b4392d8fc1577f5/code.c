@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    unsigned int a,rem=0,place=1;
+    double a,rem=0,place=1;
     double bin=0;
-    scanf("%u",&a);
+    scanf("%lf",&a);
     while(a>0)
     {
         rem=a%2;

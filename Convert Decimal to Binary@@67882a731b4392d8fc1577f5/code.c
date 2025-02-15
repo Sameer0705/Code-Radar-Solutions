@@ -7,11 +7,12 @@ int main() {
     {
         rem=a%2;
         a=a/2;
-        bin=bin+(rem*place);
-        place=place*10;
+        printf("%d",rem);
+        // bin=bin+(rem*place);
+        // place=place*10;
 
     }
-    printf("%d",bin);
+    // printf("%d",bin);
 
     return 0;
 }

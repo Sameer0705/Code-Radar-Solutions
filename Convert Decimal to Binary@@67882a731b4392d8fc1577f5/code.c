@@ -2,7 +2,7 @@
 
 int main() {
     unsigned int a,rem=0,bin=0,place=1;
-    scanf("%d",&a);
+    scanf("%u",&a);
     while(a>0)
     {
         rem=a%2;
@@ -11,7 +11,7 @@ int main() {
         place=place*10;
 
     }
-    printf("%d",bin);
+    printf("%u",bin);
 
     return 0;
 }

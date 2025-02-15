@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,rem=0,bin=0,place=1;
+    int a,rem;
     scanf("%d",&a);
     while(a>=0)
     {
@@ -10,7 +10,6 @@ int main() {
         printf("%d",rem);
         // bin=bin+(rem*place);
         // place=place*10;
-
     }
     // printf("%d",bin);
 

@@ -5,13 +5,12 @@ int main() {
     scanf("%d",&a);
     while(a>=0)
     {
-        rem=a%2;
+        printf("%d",a%2;);
         a=a/2;
-        bin=bin+(rem*place);
-        place=place*10;
-
+        // bin=bin+(rem*place);
+        // place=place*10;
     }
-    printf("%d",bin);
+    printf("\n");
 
     return 0;
 }

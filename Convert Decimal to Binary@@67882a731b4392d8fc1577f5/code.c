@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    unsigned int a,rem=0,bin=0,place=1;
+    unsigned int a,rem=0,place=1;
+    double bin=0;
     scanf("%u",&a);
     while(a>0)
     {
@@ -11,7 +12,7 @@ int main() {
         place=place*10;
 
     }
-    printf("%u",bin);
+    printf("%.lf",bin);
 
     return 0;
 }

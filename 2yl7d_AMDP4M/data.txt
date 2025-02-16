@@ -1,0 +1,1 @@
+[{"index":0,"id":"67b0eb4a17930522cbe25a0e","title":"Output of C program with increment operators","correctAnswer":"12 11 12","selectedOption":"12 11 12","isCorrect":true,"type":"MCQ"}]
